@@ -1,0 +1,37 @@
+body {
+    background: rgba(87, 172, 21, 0.825); /* Фоновый цвет и фоновый рисунок*/
+    color: rgb(255, 255, 255); /*Цвет текста на странице*/
+    background-attachment: fixed; /* Фон страницы фиксируется */
+    background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+  }
+  
+  p,
+  h1,
+  h3,
+  ul {
+    font-family: "Roboto", sans-serif;
+    width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h1 {
+    color: rgb(31, 26, 18);
+    text-align: center;
+  }
+  
+  h3 {
+    color: rgb(4, 16, 20);
+  }
+  
+  h3.title {
+    color: rgb(22, 4, 4);
+    text-align: center;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
